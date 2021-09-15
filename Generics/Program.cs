@@ -4,7 +4,7 @@ namespace Generics
 {
     public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string [] args)
         {
             int num1 = 100;
             int num2 = 200;
@@ -25,7 +25,7 @@ namespace Generics
             Console.WriteLine("str2: " + str2);
         }
 
-        static void Swap<T>(ref T val1, ref T val2)
+        public static void Swap<T>(ref T val1, ref T val2)
         {
             T temp;
             temp = val1;
